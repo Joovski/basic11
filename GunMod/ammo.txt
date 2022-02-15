@@ -1,0 +1,5 @@
+ for i,v in pairs(getgc(true)) do
+    if typeof(v) == 'table' and rawget(v, 'AmmoPerClip') then
+        rawset(v, 'AmmoPerClip', math.huge)
+    end
+ end

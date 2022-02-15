@@ -1,0 +1,5 @@
+game:GetService"RunService".RenderStepped:Connect(function()
+    local clickdetector = game:GetService("Workspace").DropedCash.ClickDetector -- path to the click detector
+
+    fireclickdetector(clickdetector)
+end)

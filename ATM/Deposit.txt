@@ -1,0 +1,6 @@
+local args = {
+    [1] = "Deposit",
+    [2] = 100000
+}
+
+game:GetService("ReplicatedStorage").Event.Bank:FireServer(unpack(args))

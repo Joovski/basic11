@@ -1,0 +1,6 @@
+local args = {
+    [1] = "Withdrawal",
+    [2] = 1000
+}
+
+game:GetService("ReplicatedStorage").Event.Bank:FireServer(unpack(args))
